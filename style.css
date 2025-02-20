@@ -16,12 +16,14 @@ body {
   }
   
   input, button {
+    
     padding: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
   }
   
   button {
+    border-radius: 10%;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -48,6 +50,7 @@ body {
   }
   
   button.delete-btn {
+    border-radius: 10%;
     background-color: #f44336; 
     color: white;
     border: 10px;
@@ -93,6 +96,7 @@ body {
 }
 
 .dark-mode button {
+  border-radius: 10%;
   background-color: #444;
   color: white;
   border: 1px solid white;
@@ -104,6 +108,7 @@ body {
 }
 
 .dark-mode .delete-btn svg {
+  border-radius: 10%;
   stroke: white;
 }
 
