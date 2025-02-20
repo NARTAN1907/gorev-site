@@ -4,22 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Görev Listesi</title>
-  <link rel="stylesheet" href="gorev.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <h1>Görev Listesi</h1>
   
-  <!-- Görev Ekleme Formu -->
+  
   <div>
     <input type="text" id="taskInput" placeholder="Yeni görev...">
     <input type="date" id="taskDate">
     <button onclick="addTask()">Görev Ekle</button>
   </div>
+  <button id="themeToggle">🌙 Karanlık Mod</button>
 
-  <!-- Görev Listesi -->
+
+ 
   <ul id="taskList"></ul>
 
-  <script src="gorev.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
